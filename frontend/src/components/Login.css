@@ -82,3 +82,8 @@
 .link-github h6 {
     text-align: center;
 }
+
+.link {
+    text-decoration: none;
+    color: #1a1a1a;
+}

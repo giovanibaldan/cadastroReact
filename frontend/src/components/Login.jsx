@@ -1,6 +1,7 @@
 import './Login.css';
 import './Login.scss';
-import IconGithub from '../assets/icone-github.png';
+import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 function Login(props) {
   return (
@@ -21,14 +22,11 @@ function Login(props) {
           <button className="btn btn-danger">Cancelar</button>
         </div>
         <div className="center-button">
-          <button className="btn btn-warning">Ver dados</button>
+          <Link className='link btn btn-warning' to='/users'>Ver Dados</Link>
         </div>
       </form>
-      <div className="link-github">
-        <a href="https://github.com/giovanibaldan">
-          <h6><img src={IconGithub} alt="Ícone GitHub" /> Giovani Baldan</h6>
-        </a>
-      </div>
+      <Footer />
+
     </>
   );
 }
