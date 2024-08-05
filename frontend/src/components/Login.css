@@ -1,0 +1,84 @@
+.corpoForm {
+    color: whitesmoke;
+    position: relative;
+    background-color: #1a1a1a;
+    width: 500px;
+    height: 650px;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 60px;
+    padding-top: 20%;
+}
+
+.corpoForm::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background: linear-gradient(to right, rgb(0, 191, 143), rgb(0, 21, 16));
+    border-radius: 27px; /* Um pixel a mais que o elemento principal */
+    z-index: -1;
+}
+
+.campoDigitar {
+    background-color: none;
+    width: 100%;
+    height: 50px;
+}
+
+.fa.fa-user {
+    margin-right: 4px;
+}
+
+.botoes {
+    width: 100%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn-success {
+    width: 40%;
+    height: 10%;
+}
+
+.btn-danger {
+    width: 40%;
+    height: 10%;
+}
+
+.btn-warning {
+    width: 40%;
+    height: 10%;
+}
+
+.link-github {
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-github img {
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
+}
+
+.link-github a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.link-github h6 {
+    text-align: center;
+}
