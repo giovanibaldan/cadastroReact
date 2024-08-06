@@ -1,5 +1,5 @@
 import './Login.css';
-import './Login.scss';
+import './Background.scss';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
