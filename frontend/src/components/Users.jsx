@@ -2,12 +2,12 @@ import "./Users.css"
 import Footer from "./Footer";
 import "./Background.scss"
 
-function Users(props){
+function Users(props) {
     return (
         <>
-        <div className="gradient"></div>
-        <div className="corpoDados"></div>
-        <Footer />
+            <div className="gradient"></div>
+            <div className="corpoDados"></div>
+            <Footer />
         </>
     )
 }

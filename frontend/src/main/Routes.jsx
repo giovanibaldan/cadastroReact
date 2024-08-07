@@ -1,13 +1,13 @@
-import { Route , Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import Login from "../components/Login";
 import Users from "../components/Users";
 
-function MainRoutes(props){
+function MainRoutes(props) {
 
     return (
         <Routes>
-            <Route path='/' element=<Login/> />
-            <Route path='/users' element=<Users/> />
+            <Route path='/' element=<Login /> />
+            <Route path='/users' element=<Users /> />
         </Routes>
     )
 

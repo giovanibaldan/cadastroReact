@@ -8,6 +8,6 @@ import './Main.css'; // Seu CSS personalizado
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <MainRoutes/>
+    <MainRoutes />
   </BrowserRouter>
 );

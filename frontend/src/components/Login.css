@@ -18,7 +18,8 @@
     bottom: -2px;
     right: -2px;
     background: linear-gradient(to right, rgb(0, 191, 143), rgb(0, 21, 16));
-    border-radius: 27px; /* Um pixel a mais que o elemento principal */
+    border-radius: 27px;
+    /* Um pixel a mais que o elemento principal */
     z-index: -1;
 }
 
