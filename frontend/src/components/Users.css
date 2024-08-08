@@ -1,0 +1,54 @@
+body {
+    display: inline-block;
+}
+
+table {
+    height: 600px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 25px;
+    border-radius: 30px;
+    border: solid whitesmoke 1px;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.iconReturn {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    transition: transform 0.5s;
+}
+
+.iconReturn:hover {
+    transform: scale(1.05);
+}
+
+table th,
+table td {
+    padding: 50px;
+    text-align: left;
+}
+
+.edit-button,
+.delete-button {
+    background: none;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 25px;
+    transition: transform 1s, color 0.3s;
+}
+
+.edit-button:hover {
+    color: yellow;
+    transform: scale(1.2);
+}
+
+.delete-button:hover {
+    color: rgb(255, 87, 87);
+    transform: scale(1.2);
+}
+
