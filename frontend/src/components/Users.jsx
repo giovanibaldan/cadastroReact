@@ -8,11 +8,12 @@ import IconReturn from '../assets/return-icon.png';
 function Users() {
     const [users, setUsers] = useState([]);
 
+    // GET inicio
     useEffect(() => {
         fetch('http://localhost:3333/users')
             .then(response => response.json())
             .then(data => setUsers(data))
-            .catch(error => console.error('Error fetching data:', error));
+            .catch(error => console.error('Fetch error:', error));
     }, []);
 
     function renderTable() {
@@ -34,7 +35,8 @@ function Users() {
             </tr>
         ));
     }
-
+    // GET fim
+    
     return (
         <>
             <div className="gradient"></div>

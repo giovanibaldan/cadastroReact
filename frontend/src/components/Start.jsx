@@ -1,9 +1,9 @@
-import './Login.css';
+import './Start.css';
 import './Background.scss';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
-function Login(props) {
+function Start(props) {
   return (
     <>
       <div className="gradient"></div>
@@ -31,4 +31,4 @@ function Login(props) {
   );
 }
 
-export default Login;
+export default Start;
