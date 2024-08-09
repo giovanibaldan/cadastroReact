@@ -1,6 +1,5 @@
 import IconGithub from '../assets/icone-github.png';
 
-
 function Footer(props) {
     return (
         <div className="link-github">
