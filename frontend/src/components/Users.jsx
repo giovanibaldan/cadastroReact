@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import "./Users.css";
-import Footer from "./Footer";
-import "./Background.scss";
 import { Link } from 'react-router-dom';
+import "./Users.css";
+import "./Background.scss";
+import Footer from "./Footer";
 import IconReturn from '../assets/return-icon.png';
 
 function Users() {
@@ -36,7 +36,7 @@ function Users() {
         ));
     }
     // GET fim
-    
+
     return (
         <>
             <div className="gradient"></div>
