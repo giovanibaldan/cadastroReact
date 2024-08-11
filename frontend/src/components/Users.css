@@ -51,3 +51,45 @@ table td {
     color: rgb(255, 87, 87);
     transform: scale(1.2);
 }
+
+.openPut {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    visibility: hidden;
+    z-index: 10;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.telaPreta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s, visibility 0.8s;
+}
+
+.telaPreta.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.botoesPut {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
