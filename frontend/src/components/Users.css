@@ -2,17 +2,44 @@ body {
     display: inline-block;
 }
 
-table {
-    height: 600px;
-    width: 1000px;
+.corpoDados {
+    max-height: 75vh; /* Altura máxima para a tabela */
+    overflow-y: auto; /* Ativa o scroll na tabela */
+    width: 70vw; /* Largura da tabela */
     background-color: rgba(0, 0, 0, 0.4);
     font-size: 25px;
     border-radius: 30px;
     border: solid whitesmoke 1px;
     padding: 0;
     border-collapse: collapse;
+    display: block; /* Evita esticar demais */
 }
 
+.corpoDados thead {
+    /* display: table; Define o cabeçalho como uma tabela */
+    width: 100%;
+    table-layout: fixed; /* Mantém o layout fixo */
+}
+
+.corpoDados tbody {
+    display: block; /* Permite o scroll no corpo */
+    max-height: 55vh; /* Define uma altura para o conteúdo */
+    overflow-y: scroll; /* Ativa o scroll no corpo */
+    width: 100%;
+}
+
+
+table th, 
+table td {
+    padding: 40px; /* Reduz o padding para evitar esticar a tabela */
+    padding-right: 6vw;
+    text-align: left;
+    white-space: nowrap; /* Evita quebra de linha */
+}
+
+.idTHead {
+    padding-right: 5.4vw;
+}
 .iconReturn {
     width: 50px;
     height: 50px;
@@ -24,12 +51,6 @@ table {
 
 .iconReturn:hover {
     transform: scale(1.05);
-}
-
-table th,
-table td {
-    padding: 50px;
-    text-align: left;
 }
 
 .edit-button,
@@ -52,8 +73,10 @@ table td {
     transform: scale(1.2);
 }
 
-.openPut {
+.openPut,
+.openDelete {
     position: fixed;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -86,10 +109,21 @@ table td {
     visibility: visible;
 }
 
-.botoesPut {
+.botoesMetodo {
     display: flex;
     flex-direction: row;
     width: 100%;
     align-items: center;
     justify-content: space-around;
+}
+
+.tituloMetodo {
+    font-size: 20px;
+    color: black;
+}
+
+.blackLabel {
+    color: black;
+    padding-top: 0;
+    margin: 0;
 }
