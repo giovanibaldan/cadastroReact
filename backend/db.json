@@ -2,7 +2,7 @@
   "users": [
     {
       "nome": "Giovani",
-      "email": "giovani@hotmail.com",
+      "email": "giovani-baldan@hotmail.com",
       "id": "1"
     },
     {
@@ -16,9 +16,9 @@
       "id": "3"
     },
     {
-      "id": "4",
       "nome": "Caio",
-      "email": "caio@hotmail.com"
+      "email": "caio@hotmail.com",
+      "id": "4"
     }
   ]
 }
