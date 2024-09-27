@@ -18,7 +18,7 @@ function Users() {
             .then(response => response.json())
             .then(data => setUsers(data))
             .catch(error => console.error('Fetch error:', error));
-    }, []);
+    }, [users]);
 
     function renderTable() {
         return users.map(user => (
