@@ -66,9 +66,8 @@ yarn json  ||  npm run json
 http://localhost:5173
 ```
 
-<h3 align="left">
-    Tecnologias utilizadas:
-  </h3>
+### Tecnologias utilizadas:
+
    <table >
        <td align="center">
             <img src="https://skillicons.dev/icons?i=js" width="65px" alt="C icon" /><br>
@@ -108,7 +107,7 @@ http://localhost:5173
         </td>
   </table>
 
-<h4 align="left">Funcionamento da página:</h4>
+### Funcionamento da página:
 <img src="https://github.com/user-attachments/assets/54a70725-8e1b-46db-99dc-71b629b62feb"/>
 
 <br>
